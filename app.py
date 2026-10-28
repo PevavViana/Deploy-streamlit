@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 st.set_page_config(page_title="Cuidados", layout="wide", page_icon=":P")
-caminho_arquivo = r"H:\Escola\Python\Etapa-3\Deploy\Tabela 1.1.2.xls"
+caminho_arquivo = r"Tabela 1.1.2.xls"
 
 @st.cache_data
 def carregar_dados(caminho_arquivo):
